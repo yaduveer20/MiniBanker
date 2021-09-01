@@ -1,0 +1,16 @@
+{
+  "name": "mini-banker",
+  "version": "1.0.0",
+  "description": "Simulation of banking activities",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Gopal Khatri",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-image": "^2.0.0-rc.0",
+    "parcel": "^2.0.0-rc.0"
+  }
+}
